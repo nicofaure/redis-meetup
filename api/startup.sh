@@ -1,0 +1,5 @@
+export https_proxy="https://172.16.0.89:80"
+export http_proxy="http://172.16.0.89:80"
+export JAVA_HOME="/usr/local/bin/jdk1.8.0_65"
+export PATH="/usr/local/bin/jdk1.8.0_65/bin:$PATH"
+./activator "run 8080"
